@@ -1,17 +1,17 @@
-plugins {
+﻿plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.ksp)
     alias(libs.plugins.hilt)
 }
 
 android {
-    namespace = "com.cagataysencan.template"
+    namespace = "com.cagataysencan.otosistem"
     compileSdk {
         version = release(37)
     }
 
     defaultConfig {
-        applicationId = "com.cagataysencan.template"
+        applicationId = "com.cagataysencan.otosistem"
         minSdk = 26
         targetSdk = 37
         versionCode = 1

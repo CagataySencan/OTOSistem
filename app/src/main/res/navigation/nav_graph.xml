@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/nav_graph"
@@ -6,7 +6,7 @@
 
     <fragment
         android:id="@+id/splashFragment"
-        android:name="com.cagataysencan.template.feature.splash.SplashFragment"
+        android:name="com.cagataysencan.otosistem.feature.splash.SplashFragment"
         android:label="@string/splash_title">
 
         <action
@@ -25,7 +25,7 @@
 
     <fragment
         android:id="@+id/authFragment"
-        android:name="com.cagataysencan.template.feature.auth.AuthFragment"
+        android:name="com.cagataysencan.otosistem.feature.auth.AuthFragment"
         android:label="@string/auth_title">
 
         <action
@@ -38,7 +38,7 @@
 
     <fragment
         android:id="@+id/homeFragment"
-        android:name="com.cagataysencan.template.feature.home.HomeFragment"
+        android:name="com.cagataysencan.otosistem.feature.home.HomeFragment"
         android:label="@string/home_title">
 
         <action
@@ -49,7 +49,7 @@
 
     <fragment
         android:id="@+id/settingsFragment"
-        android:name="com.cagataysencan.template.feature.settings.SettingsFragment"
+        android:name="com.cagataysencan.otosistem.feature.settings.SettingsFragment"
         android:label="@string/settings_title" />
 
 </navigation>
